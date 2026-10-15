@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:paddingTop="36dp">
+
+    <!-- Encabezado gris con barra superior -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarPrivacidad"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#EFEFEF"
+        app:title="Privacidad"
+        app:titleTextColor="#212121" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="Reglas de Privacidad"
+            android:textColor="#111638"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingExtra="4dp"
+            android:text="La Política se aplica a todos los datos personales que los usuarios proporcionen de manera directa o a través de una tercera persona (encargado) cuando éste actúe según las instrucciones del usuario."
+            android:textColor="#333333"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:text="Los datos personales de los usuarios que emplean nuestros canales web son almacenados en sus correspondientes bancos de datos, los cuales se encuentran registrados ante la Autoridad Nacional de Protección de Datos Personales."
+            android:textColor="#333333"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
